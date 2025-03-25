@@ -1,0 +1,36 @@
+body {
+    font-family: 'DeterminationMono', sans-serif;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  @font-face {
+    font-family: 'DeterminationMono';
+    src: url('../assets/fonts/DeterminationMono.ttf') format('truetype');
+}
+
+#prank-button {
+    font-family: 'DeterminationMono', sans-serif;
+    font-size: 2rem;
+    padding: 20px 40px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    position: relative;
+}
+  
+  .ketchup {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    image-rendering: pixelated;
+  }
+  
