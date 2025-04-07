@@ -6,6 +6,7 @@ document.getElementById('prank-button').addEventListener('click', () => {
     audio.play();
     explodeKetchup();
     showKetchupSplash();
+    showSansInCorner();
     setTimeout(() => {
       showGasterBlaster();
     }, 24000);
@@ -70,9 +71,24 @@ document.getElementById('prank-button').addEventListener('click', () => {
   
     document.body.appendChild(gaster);
   }
+  function showSansInCorner() {
+    const sans = document.createElement('img');
+    sans.src = 'assets/img/ketchsans.png';
+    sans.alt = 'Sans ketchup';
+    sans.style.position = 'fixed';
+    sans.style.bottom = '10px';
+    sans.style.right = '10px';
+    sans.style.width = '100px';
+    sans.style.opacity = '0.4';
+    sans.style.zIndex = '5';
+    sans.style.pointerEvents = 'none';
+    sans.id = 'ketchsans';
   
+    document.body.appendChild(sans);
+  }
+
   function resetPrank() {
-    document.querySelectorAll('.ketchup, #splash-ketchup, #gasterblaster').forEach(el => el.remove());
+    document.querySelectorAll('.ketchup, #splash-ketchup, #gasterblaster, #ketchsans').forEach(el => el.remove());
     const button = document.getElementById('prank-button');
     button.style.display = 'block';
   }
