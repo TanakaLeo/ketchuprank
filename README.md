@@ -1,19 +1,19 @@
 # 🎮 Press Me - An Undertale-Inspired Prank
 
-A funny prank web app inspired by Undertale and MSN emojis, built with HTML, CSS, and JavaScript.
+A funny prank web app inspired by Undertale and MSN emojis, built with HTML, CSS and JavaScript.
 You can try it here: https://pressme.vercel.app/
 
 ![Sans](assets/img/ketchsans.png)
 
 ---
 
-## 🧠 What is this?
+## What is this?
 
 This is a pixel-style prank project that begins innocently with a "PRESS ME" button... You'll find out once you run it heheh
 
 ---
 
-## ✨ Features
+## Features
 - Particles
 - Image and audio inserts
 - Some ephemeral fun
@@ -21,7 +21,7 @@ This is a pixel-style prank project that begins innocently with a "PRESS ME" but
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
