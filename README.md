@@ -9,7 +9,7 @@ You can try it here: https://pressme.vercel.app/
 
 ## What is this?
 
-This is a pixel-style prank project that begins innocently with a "PRESS ME" button... You'll find out once you run it heheh
+This is a pixel-style prank project that begins innocently with a "PRESS ME" button... You'll find out once you run it
 
 ---
 
@@ -22,13 +22,12 @@ This is a pixel-style prank project that begins innocently with a "PRESS ME" but
 ---
 
 ## How to Run
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/TanakaLeo/ketchuprank.git
 2. Open the folder in your code editor
 3. Start a local server
-
+   
 ---
 
 ## Technologies Used
